@@ -1,12 +1,14 @@
 # Lending Club Case Study
 ---
-## Case study assignment as part by IIIT Bangalore and Upgrad
+## Case study assignment by IIIT Bangalore and Upgrad
 ---
 > Solving this assignment will give you an idea about how real business problems are solved using EDA. In this case study, apart from applying the techniques you have learnt in EDA, you will also develop a basic understanding of risk analytics in banking and financial services and understand how data is used to minimise the risk of losing money while lending to customers.
+> Developed as part of the Exloratory Data Analysis Module required for Executive Post Graduate Program in Machine Learning and AI - IIIT,Bangalore.
 ---
 
 ## Table of Contents
 * [General Information](#general-information)
+* [Methodology](#methodology)
 * [Repository contents](#repository-contents)
 * [Conclusions](#conclusions)
 
@@ -19,6 +21,14 @@
 
 **Objective:**
 The aim is to understand the **driving factors (or driver variables) behind loan default**, i.e. the variables which are strong indicators of default using EDA.
+
+## Methodology
+1) Data Sourcing and Understanding
+2) Data Cleaning and Manipulation
+3) Univariate Analysis
+4) Segmented Univariate Analysis
+5) Bivariate Analysis
+6) Multivariate Analysis
 
 ## Repository contents
 | File | Description |
