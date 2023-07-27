@@ -34,8 +34,8 @@ The aim is to understand the **driving factors (or driver variables) behind loan
 | File | Description |
 |:-----|:------------|
 | Python notebook | It contains the complete detailed code along with plots to analyse the given data for finding the driving factors.|
-| PDF | Summarized the analysis in a presentation |
-| README.md | This filed briefs about the project. |
+| PDF | Summarized the analysis in a presentation. |
+| README.md | This file briefs about the project. |
 | loan.csv | The lending club loan dataset. |
 | Data_Dictionary.xlsx | Meaning of the variables in the loan dataset. |
 | imp_loan_data.csv | Contains the filtered important loan data. |
@@ -49,10 +49,11 @@ The aim is to understand the **driving factors (or driver variables) behind loan
 
 **To avoid defaulters (either by rejecting or taking some measures)**
 - Based on the assessment and driving factors, control the percentage of loan approved.
-- Promote more short term loans by attractive interest rates.
-- Reduce the interest rate for long term loans.
+- Reduce the loan approved for small business as they might not have high profit and tend to default.
+- Promote short term loans by attractive interest rates and Reduce the interest rate for long term loans.
 - Reduce the interest rate to below 15% for people with less than 100000 as their annual income.
-- Reduce the loan amount approved for experience people.
+- Reduce the loan amount approved for experienced people, 10+ years.
+- For people with higher revolving utilization rate, either reduce/reject the loan amount.
 - For people with OTHER home ownership, if they have high installments, either reduce/reject the loan amount.
 - Reject loans to people with more derogatory who might tend to bankrupt.
 
