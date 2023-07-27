@@ -1,52 +1,50 @@
-# Project Name
-> Outline a brief description of your project.
-
+# Lending Club Case Study
+---
+## Case study assignment as part by IIIT Bangalore and Upgrad
+---
+> Solving this assignment will give you an idea about how real business problems are solved using EDA. In this case study, apart from applying the techniques you have learnt in EDA, you will also develop a basic understanding of risk analytics in banking and financial services and understand how data is used to minimise the risk of losing money while lending to customers.
+---
 
 ## Table of Contents
-* [General Info](#general-information)
-* [Technologies Used](#technologies-used)
+* [General Information](#general-information)
+* [Repository contents](#repository-contents)
 * [Conclusions](#conclusions)
-* [Acknowledgements](#acknowledgements)
-
-<!-- You can include any other section that is pertinent to your problem -->
 
 ## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
+- Lending club company is the largest online loan marketplace, facilitating personal loans, business loans, and financing of medical procedures. Borrowers can easily access lower interest rate loans through a fast online interface.
+- Lending loans to *‘risky’* applicants is the largest source of financial loss (called credit loss). There are two types of risks associated with the bank’s decision:
+> - If the applicant is likely to repay the loan, then not approving the loan results in a loss of business to the company.
+> - If the applicant is not likely to repay the loan, i.e. he/she is likely to default, then approving the loan may lead to a financial loss for the company.
+- Borrowers who default cause the largest amount of loss to the lenders.
 
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+**Objective:**
+The aim is to understand the **driving factors (or driver variables) behind loan default**, i.e. the variables which are strong indicators of default using EDA.
+
+## Repository contents
+| File | Description |
+|:-----|:------------|
+| Python notebook | It contains the complete detailed code along with plots to analyse the given data for finding the driving factors.|
+| PDF | Summarized the analysis in a presentation |
+| README.md | This filed briefs about the project. |
+| loan.csv | The lending club loan dataset. |
+| Data_Dictionary.xlsx | Meaning of the variables in the loan dataset. |
+| imp_loan_data.csv | Contains the filtered important loan data. |
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+**To assess if the applicant might default**
+- Look into the grade of the applicant.
+- Validate the purpose of the loan.
+- Look into annual income, installment and revolving utilization rate.
+- Look into the status of defaulters from the applicant’s state.
 
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
-
-
-## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
-
-<!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
-
-## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
-
+**To avoid defaulters (either by rejecting or taking some measures)**
+- Based on the assessment and driving factors, control the percentage of loan approved.
+- Promote more short term loans by attractive interest rates.
+- Reduce the interest rate for long term loans.
+- Reduce the interest rate to below 15% for people with less than 100000 as their annual income.
+- Reduce the loan amount approved for experience people.
+- For people with OTHER home ownership, if they have high installments, either reduce/reject the loan amount.
+- Reject loans to people with more derogatory who might tend to bankrupt.
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
-
-
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->
+Created by [@shruthipv96] - feel free to contact me!
